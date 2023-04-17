@@ -1,0 +1,46 @@
+﻿@{
+    Layout = "~/Views/Shared/_DefaultLayout.cshtml"
+                ;
+}
+                
+<!--
+Author: W3layouts
+Author URL: http://w3layouts.com
+-->
+<!--//header-->
+<!-- banner section -->
+@Html.Action("PartialBanner")
+<!-- //banner section -->
+<!-- About Section-->
+@Html.Action("PartialAbout")
+
+<!-- //About Section-->
+<!-- Services Section -->
+@Html.Action("PartialService")
+
+<!-- //Services Section -->
+@Html.Action("PartialFeaturedSkill")
+
+<!-- Why Choose Us Section-->
+@Html.Action("PartialChoose")
+<!-- //Why Choose Us Section-->
+<!-- Stats Section-->
+@Html.Action("PartialStats")
+<!-- //Stats Section-->
+<!-- portfolio -->
+@Html.Action("PartialPortfolyo")
+<!-- //portfolio -->
+<!--/brands-->
+@Html.Action("PartialBrands")
+<!-- //brands -->
+<!-- //footer -->
+<!-- Js scripts -->
+<!-- move top -->
+<button onclick="topFunction()" id="movetop" title="Go to top">
+    <span class="fas fa-level-up-alt" aria-hidden="true"></span>
+</button>
+@Html.Action("PartialScripts")
+
+</body>
+
+</html>
